@@ -46,8 +46,8 @@ function draw() {
   background(0);  
    ground.display();
    if(frameCount%60===0){
-    console.log("hey");
-    particles.push(new Particle(random(width/2-10,width/2+10),10,10));
+
+    particles.push(new Particle(random(800/2-10, 800/2+10),10,10));
   }
    for(var k = 0; k < plinkos.length; k++)
   {
